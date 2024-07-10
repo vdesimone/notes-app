@@ -13,7 +13,7 @@ body {
   border-radius: 8px;
   box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  width: 827px;
+  width: 839px;
   height: 600px;
   padding: 20px;
   box-sizing: border-box;
@@ -25,8 +25,8 @@ body {
 
 #list-header {
   display: flex;
-  align-items: left;
-  justify-content: left;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .blankDiv {
@@ -101,10 +101,14 @@ li {
 }
 
 li span {
-  font-size: 12px;
+  font-size: 18px;
   flex-grow: 1;
   word-wrap: break-word;
   overflow-y: scroll;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 #editBtn, #deleteBtn {
